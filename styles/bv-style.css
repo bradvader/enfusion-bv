@@ -1,0 +1,447 @@
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: local('Euclid Circular A'), url(/fonts/EuclidCircularA-Regular.woff) format('woff');
+  }
+
+main{max-width:1440px;}
+
+#bv-cta-block{
+    background:url('/images/GettyImages-1036208856-1.png');
+    background-size:cover;
+    width:1440px;
+    height:360px;
+    margin:0 auto
+}
+#block-A{
+
+position: absolute;
+width: 640px;
+left: 160px;
+top: 40%;
+bottom: 44.44%;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+/* identical to box height, or 117% */
+letter-spacing: -0.5px;
+
+/* Purples/Midnight */
+color: #1E1A34;
+
+
+}
+
+#block-button{
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 32px 16px;
+gap: 16px;
+
+position: absolute;
+width: 147px;
+right: 256px;
+top: 42.22%;
+bottom: 42.22%;
+
+/* Purples/Midnight */
+background: #1E1A34;
+border-radius: 80px;
+
+}
+#ttu{
+/* Talk to Us */
+
+width: 83px;
+height: 26px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+
+/* identical to box height, or 144% */
+text-align: center;
+letter-spacing: 0.2px;
+
+/* Neutrals / White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#bv-stats-block{
+    background:url('/images/Rectangle 9stats-bg.png');
+    background-size:cover;
+    width:1280px;
+    height:510px;
+}
+#stats-head{
+/* Frame 89 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 832px;
+height: 102px;
+left: 160px;
+top: 64px;
+
+}
+#stats-title{
+
+    width: 736px;
+    height: 22px;
+    
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    
+    /* identical to box height, or 157% */
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    
+    /* Purples / Periwinkle */
+    color: #99B0F6;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+}
+#stats-headline{
+    /* Strength in numbers. */
+
+width: 832px;
+height: 56px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+/* identical to box height, or 117% */
+letter-spacing: -0.5px;
+
+/* Neutrals / White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.stats{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+#stats-1{
+/* Frame 132 */
+/* Auto layout */
+position: absolute;
+width: 256px;
+height: 228px;
+left: 160px;
+top: 214px;
+}
+
+#stats-2{
+/* Frame 91 */
+/* Auto layout */
+
+position: absolute;
+width: 256px;
+height: 232px;
+left: 544px;
+top: 214px;
+}
+
+#stats-3{
+/* Frame 92 */
+/* Auto layout */
+
+position: absolute;
+width: 256px;
+height: 210px;
+left: 928px;
+top: 214px;
+}
+
+.stats-num{
+    /* 9 */
+
+width: 256px;
+height: 88px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 300;
+font-size: 88px;
+line-height: 88px;
+
+/* identical to box height, or 100% */
+letter-spacing: -1px;
+
+/* Neutrals / White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.stats-line{
+   /* Line 32 */
+
+width: 256px;
+height: 0px;
+
+/* Neutrals/White 30% */
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0; 
+}
+.sh{
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+}
+.stats-subhead-1{
+    /* OFFICES ACROSS FOUR CONTINENTS */
+
+width: 256px;
+height: 36px;
+
+
+
+/* or 150% */
+letter-spacing: 2.5px;
+text-transform: uppercase;
+
+/* Purples / Periwinkle */
+color: #99B0F6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.stats-subhead-2{
+    /* YEARS OF CLOUD-NATIVE SAAS */
+
+width: 256px;
+height: 18px;
+
+
+
+/* identical to box height, or 150% */
+letter-spacing: 2.5px;
+text-transform: uppercase;
+
+/* Purples / Periwinkle */
+color: #99B0F6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.stats-subhead-3{
+    /* Implementations */
+    
+    width: 256px;
+    height: 18px;
+    
+
+    
+    /* identical to box height, or 150% */
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    
+    /* Purples / Periwinkle */
+    color: #99B0F6;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+.stats-subcopy-1{
+    /* Our global footprint allows for 24/6, follow-the-sun support. */
+
+width: 288px;
+height: 44px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+
+/* or 147% */
+letter-spacing: 0.2px;
+
+/* Neutrals/White 70% */
+color: rgba(255, 255, 255, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+#stats-copy-1{
+/* Frame 133 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 256px;
+height: 92px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}
+#stats-copy-2{
+    /* Frame 134 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 256px;
+height: 96px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+}
+#stats-copy-3{
+/* Frame 135 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 256px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.stats-subcopy-2{
+    /* The architecture of our platform pre-dates the rise of SaaS for the industry. */
+
+width: 288px;
+height: 66px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+
+/* or 147% */
+letter-spacing: 0.2px;
+
+/* Neutrals/White 70% */
+color: rgba(255, 255, 255, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.stats-subcopy-3{
+
+    /* Hundreds of funds trust Enfusion technology for their operations. */
+
+width: 256px;
+height: 44px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+
+/* or 147% */
+letter-spacing: 0.2px;
+
+/* Neutrals/White 70% */
+color: rgba(255, 255, 255, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}

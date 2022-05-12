@@ -1,0 +1,1040 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Enfusion Email Template</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+        <link href="https://fonts.cdnfonts.com/css/century-gothic" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            @import url('https://fonts.cdnfonts.com/css/century-gothic');
+
+            /* common */
+            #outlook a {
+                padding: 0;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                -webkit-text-size-adjust: 100%;
+                -ms-text-size-adjust: 100%;
+                font-family: 'Century Gothic', sans-serif;
+            }
+
+            body.mso {
+                font-family: sans-serif !important;
+            }
+
+            .mso * {
+                font-family: sans-serif !important;
+            }
+
+            table,
+            td {
+                border-collapse: collapse;
+                mso-table-lspace: 0pt;
+                mso-table-rspace: 0pt;
+            }
+
+            img {
+                border: 0;
+                height: auto;
+                line-height: 100%;
+                outline: none;
+                text-decoration: none;
+                -ms-interpolation-mode: bicubic;
+            }
+
+            p {
+                display: block;
+                margin: 0 0 13px;
+            }
+
+            /* button */
+            .btn {
+                height: 40px;
+                padding: 9px 25px;
+                background: #7d5fff;
+                border-radius: 40px;
+                display: inline-block;
+                color: white;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: 0.2px;
+                vertical-align: middle;
+                height: auto;
+                text-decoration: none;
+            }
+
+            .btn-white {
+                background-color: white;
+                color: rgba(30, 26, 52, 1);
+            }
+
+            .btn+.btn {
+                margin-left: 10px;
+            }
+
+            .btn-link {
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                letter-spacing: 0.2px;
+                color: #1e1a34;
+            }
+
+            .btn-link-simple {
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                letter-spacing: 0.2px;
+                color: rgba(125, 95, 255, 1);
+            }
+
+            .lead {
+                font-size: 18px;
+                line-height: 26px;
+                opacity: 0.7;
+                letter-spacing: 0.2px;
+                font-weight: lighter;
+            }
+
+            .lead li {
+                margin-bottom: 20px;
+            }
+
+            @media screen and (max-width: 525px) {
+                .wrapper {
+                    width: 100% !important;
+                    max-width: 100% !important;
+                }
+
+                .img-max {
+                    max-width: 100% !important;
+                    width: 100% !important;
+                    height: auto !important;
+                }
+
+                .responsive-table {
+                    width: 100% !important;
+                }
+
+                .no-padding {
+                    padding: 0 !important;
+                }
+
+                .lead {
+                    font-size: 15px !important;
+                    line-height: 22px !important;
+                }
+
+                h1 {
+                    font-size: 28px !important;
+                    line-height: 36px !important;
+                }
+
+                h4 {
+                    font-size: 24px !important;
+                    line-height: 34px !important;
+                }
+
+                .mobile-border-bottom {
+                    padding-bottom: 20px;
+                    margin-bottom: 20px;
+                    border-bottom: 1px solid rgba(30, 26, 52, 0.2);
+                }
+
+                .mobile-border-bottom {
+                    padding-bottom: 20px !important;
+                    margin-bottom: 20px !important;
+                    border: none !important;
+                    mso-border-bottom-alt: 1px solid rgba(30, 26, 52, 0.2) !important;
+                    border-bottom: 1px solid rgba(30, 26, 52, 0.2) !important;
+                    width: 100% !important;
+                }
+            }
+
+        </style>
+
+
+    </head>
+
+    <!--[if mso]><body class="mso"><![endif]-->
+    <!--[if !mso]><!-->
+
+    <body>
+        <!--<![endif]-->
+
+        <table style="max-width: 600px; margin:0 auto; width: 100%;">
+            <tr>
+                <td colspan="2" background="https://enfusion.webworkinprogress.com/emails/images/hero.png" bgcolor="#e1ebfe" width="600" height="301" valign="top">
+                    <!--[if gte mso 9]>
+                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:301px;">
+                            <v:fill type="tile" src="https://enfusion.webworkinprogress.com/emails/images/hero.png" color="#e1ebfe" />
+                            <v:textbox inset="0,0,0,0">
+                          <![endif]-->
+                    <div>
+                        <table style="max-width: 600px; margin:0 auto; width: 100%;">
+                            <tr>
+                                <td style="padding:24px">
+                                    <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/email-logo.png" alt="Enfusion logo" />
+                                </td>
+                                <td style="padding:24px;text-align: right;">
+                                    <a href="#"
+                                        style="background-color:#7D5FFF;border-radius:20px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:15px;font-weight:500;letter-spacing:.2px;line-height:40px;text-align:center;text-decoration:none;width:120px;-webkit-text-size-adjust:none;">
+                                        Talk to Us
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-bottom: 206px;" colspan="2">
+
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!--[if gte mso 9]>
+                                </v:textbox>
+                                </v:rect>
+                                <![endif]-->
+                </td>
+            </tr>
+
+        </table>
+        <table style="max-width: 600px; margin:0 auto; width: 100%;">
+            <tr>
+                <td style="padding:34px 24px 24px; padding-top:24px !important;padding-bottom: 20px !important;" class="no-padding">
+                    <p style="text-transform: uppercase;font-size: 12px;line-height: 22px;font-weight: bold;letter-spacing: 2.5px;margin:0">
+                        <span style="width: 5px;height: 5px;border:2px solid #7D5FFF;display: inline-block;vertical-align: middle;margin-right: 4px; border-radius: 10px; margin-bottom: 2px;"></span>
+                        eyebrow
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:0px 24px 24px; padding-bottom: 20px !important;" class="no-padding">
+                    <h1 style="margin:0; font-weight: 400;font-size: 56px;line-height: 64px;letter-spacing: -1px;color: #1E1A34;">Lorem ipsum.<br />
+                        <span style="color:#7D5FFF">Dolor sit consect.</span>
+                    </h1>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:0 24px" class="no-padding">
+                    <p class="lead" style="margin-bottom:40px ;font-size: 18px; line-height: 26px;opacity: 0.7;letter-spacing: 0.2px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiumod tempor incididunt ut labredet dolore magna aliqua. Ut enim ad
+                        minim veniam, qud fis nost rud
+                        exercitation
+                        ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.</p>
+
+                    <a href="" class="btn-link">
+                        <table cellpadding="9" cellspacing="0">
+                            <tr>
+                                <td style="padding-left: 0;">
+                                    <span style="text-decoration:none;" style="font-size: 15px;color:rgba(30, 26, 52, 1)">Join Our Newsletter</span>
+                                </td>
+                                <td>
+                                    <div style="height: 32px;">
+                                        <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/arrow-circle.png" alt="">
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </a>
+                </td>
+            </tr>
+
+        </table>
+
+
+        <table style="max-width: 600px; margin:50px auto; width: 100%; table-layout: fixed;">
+
+            <tr>
+                <td bgcolor="#ffffff" align="center" style="width:100%" class="section-padding">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" style="padding:0 0 20px 0;" class="responsive-table">
+                        <tr>
+                            <td align="center" height="100%" valign="top" width="100%" style="padding-bottom: 35px;">
+                                <!--[if (gte mso 9)|(IE)]>
+                        <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                        <tr>
+                        <td align="center" valign="top" width="600">
+                        <![endif]-->
+                                <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600;">
+                                    <tr>
+                                        <td align="center" valign="top" style="font-size:0;">
+                                            <!--[if (gte mso 9)|(IE)]>
+                                    <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                                    <tr>
+                                    <td align="left" valign="top" width="300">
+                                    <![endif]-->
+                                            <div style="display:inline-block; max-width:300px; vertical-align:top; width:100%;" class="wrapper">
+
+                                                <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="300">
+                                                    <tr>
+                                                        <td valign="top" style="padding: 5px 24px" class="no-padding">
+
+                                                            <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/devices-icon.png" alt="">
+                                                            <h1
+                                                                style="margin:0; font-weight: 400;font-size: 24px;line-height: 32px;letter-spacing: -1px;color: #1E1A34;margin-bottom: 10px;margin-top:10px">
+                                                                Lorem ipsum dolor sit con sect
+                                                                incid idunt ut.
+                                                            </h1>
+                                                            <p class="lead" style="font-size: 15px; line-height: 22px;opacity: 0.7;letter-spacing: 0.2px;margin-bottom: 20px;">Lorem ipsum dolor sit
+                                                                amet, conse ctetur adipiscing elit, sed
+                                                                doumd od tempor incididunt ut labrdedet
+                                                                dolore magna aliqua.
+                                                            </p>
+                                                            <a href="" class=""
+                                                                style="    text-decoration: none;font-weight: 500;font-size: 15px;line-height: 22px;letter-spacing: 0.2px;color: rgba(125, 95, 255, 1);">
+                                                                <table cellpadding="9" cellspacing="0">
+                                                                    <tr>
+                                                                        <td style="padding-left: 0;">
+                                                                            <span style="text-decoration:none;" style="font-size: 15px;color:rgba(30, 26, 52, 1)">Learn More</span>
+                                                                        </td>
+                                                                        <td style="padding-left: 0;">
+                                                                            <div style="height: 22px;">
+                                                                                <img border="0" class='terminal' src="https://enfusion.webworkinprogress.com/emails/images/single-arrow.png" alt="">
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    <td align="left" valign="top" width="300">
+                                    <![endif]-->
+                                            <div style="display:inline-block; max-width:300px; vertical-align:top; width:100%;" class="wrapper">
+
+                                                <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px; float: right;" class="wrapper">
+                                                    <tr>
+
+                                                        <td>
+
+                                                            <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/double-terminal-2.png" class='terminal' width="298"
+                                                                style="margin: 0; border: 0; padding: 0; display: block;" alt="">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                        </td>
+                                    </tr>
+
+                                </table>
+                                <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table style="max-width: 600px; margin:0 auto; width: 100%;">
+            <tr style="text-align: right;">
+                <td>
+                    <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/double-terminal-2.png" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 53px 24px 16px">
+                    <h1 style="margin:0; font-weight: 400;font-size: 32px;line-height: 40px;letter-spacing: -1px;color: #1E1A34;">Lorem ipsum dolor sit con sect incid idunt ut labredet.
+                    </h1>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:0 24px">
+                    <p class="lead" style="margin-bottom: 30px;font-size: 18px; line-height: 26px;opacity: 0.7;letter-spacing: 0.2px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiumod tempor incididunt ut labredet dolore magna aliqua. Ut enim ad
+                        minim veniam, qud fis nost rud
+                        exercitation
+                        ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.</p>
+
+
+                    <a href="" class="btn-link">
+                        <table cellpadding="9" cellspacing="0">
+                            <tr>
+                                <td style="padding-left: 0;">
+                                    <span style="text-decoration:none;" style="font-size: 15px;color:rgba(30, 26, 52, 1)">Join Our Newsletter</span>
+                                </td>
+                                <td>
+                                    <div style="height: 32px;">
+                                        <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/arrow-circle.png" alt="">
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </a>
+
+                </td>
+            </tr>
+
+        </table>
+
+        <table style="max-width: 600px; margin:10px auto; width: 100%; table-layout: fixed;">
+
+            <tr>
+                <td bgcolor="#ffffff" align="center" style="width:100%" class="section-padding">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" style="padding:0 0 20px 0;" class="responsive-table">
+                        <tr>
+                            <td align="center" height="100%" valign="top" width="100%" style="padding-bottom: 35px;">
+                                <!--[if (gte mso 9)|(IE)]>
+                                <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                                <tr>
+                                <td align="center" valign="top" width="600">
+                                <![endif]-->
+                                <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600;">
+                                    <tr>
+                                        <td align="center" valign="top" style="font-size:0;">
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                                            <tr>
+                                            <td align="left" valign="top" width="300">
+                                            <![endif]-->
+                                            <div style="display:inline-block; max-width:300px; vertical-align:top; width:100%;" class="wrapper">
+
+                                                <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="300">
+                                                    <tr>
+                                                        <td valign="top" style="padding: 5px 24px 60px">
+                                                            <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/devices-icon.png" alt="">
+                                                            <h1
+                                                                style="margin:0; font-weight: 400;font-size: 24px;line-height: 32px;letter-spacing: -1px;color: #1E1A34;margin-bottom: 10px;margin-top:10px">
+                                                                Lorem ipsum dolor sit
+                                                                con sect
+                                                                incid idunt ut.
+                                                            </h1>
+                                                            <p class="lead" style="font-size: 15px;line-height:22px;margin-bottom: 30px;">Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, sed
+                                                                doumd od tempor incididunt
+                                                                ut labrdedet
+                                                                dolore magna aliqua.
+                                                            </p>
+                                                            <a href="http://enfusion.com/" class="btn-link-simple">
+                                                                <table cellpadding="9" cellspacing="0">
+                                                                    <tr>
+                                                                        <td style="padding-left: 0;">
+                                                                            <span style="font-size: 15px;line-height:15px">Learn More</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div style="height: 22px;">
+                                                                                <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/single-arrow.png" alt="">
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            </td>
+                                            <td align="left" valign="top" width="300">
+                                            <![endif]-->
+                                            <div style="display:inline-block; max-width:300px; vertical-align:top; width:100%;" class="wrapper">
+
+                                                <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px; float: right;" class="wrapper">
+                                                    <tr>
+
+                                                        <td style="padding: 5px 24px 60px">
+                                                            <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/devices-icon.png" alt="">
+                                                            <h1
+                                                                style="margin:0; font-weight: 400;font-size: 24px;line-height: 32px;letter-spacing: -1px;color: #1E1A34;margin-bottom: 10px;margin-top:10px">
+                                                                Lorem ipsum dolor sit
+                                                                con sect
+                                                                incid idunt ut.
+                                                            </h1>
+                                                            <p class="lead" style="font-size: 15px;line-height:22px;margin-bottom: 30px;">Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, sed
+                                                                doumd od tempor incididunt
+                                                                ut labrdedet
+                                                                dolore magna aliqua.
+                                                            </p>
+
+                                                            <a href="http://enfusion.com/" class="btn-link-simple">
+                                                                <table cellpadding="9" cellspacing="0">
+                                                                    <tr>
+                                                                        <td style="padding-left: 0;">
+                                                                            <span style="font-size: 15px;line-height:15px">Learn More</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div style="height: 22px;">
+                                                                                <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/single-arrow.png" alt="">
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            </td>
+                                            </tr>
+                                            </table>
+                                            <![endif]-->
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center" valign="top" style="font-size:0;">
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                                            <tr>
+                                            <td align="left" valign="top" width="300">
+                                            <![endif]-->
+                                            <div style="display:inline-block; max-width:300px; vertical-align:top; width:100%;" class="wrapper">
+
+                                                <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="300">
+                                                    <tr>
+                                                        <td valign="top" style="padding: 5px 24px 60px">
+                                                            <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/devices-icon.png" alt="">
+                                                            <h1
+                                                                style="margin:0; font-weight: 400;font-size: 24px;line-height: 32px;letter-spacing: -1px;color: #1E1A34;margin-bottom: 10px;margin-top:10px">
+                                                                Lorem ipsum dolor sit
+                                                                con sect
+                                                                incid idunt ut.
+                                                            </h1>
+                                                            <p class="lead" style="font-size: 15px;line-height:22px;margin-bottom: 30px;">Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, sed
+                                                                doumd od tempor incididunt
+                                                                ut labrdedet
+                                                                dolore magna aliqua.
+                                                            </p>
+
+                                                            <a href="http://enfusion.com/" class="btn-link-simple">
+                                                                <table cellpadding="9" cellspacing="0">
+                                                                    <tr>
+                                                                        <td style="padding-left: 0;">
+                                                                            <span style="font-size: 15px;line-height:15px">Learn More</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div style="height: 22px;">
+                                                                                <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/single-arrow.png" alt="">
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            </td>
+                                            <td align="left" valign="top" width="300">
+                                            <![endif]-->
+                                            <div style="display:inline-block; max-width:300px; vertical-align:top; width:100%;" class="wrapper">
+
+                                                <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px; float: right;" class="wrapper">
+                                                    <tr>
+
+                                                        <td style="padding: 5px 24px 60px">
+                                                            <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/devices-icon.png" alt="">
+                                                            <h1
+                                                                style="margin:0; font-weight: 400;font-size: 24px;line-height: 32px;letter-spacing: -1px;color: #1E1A34;margin-bottom: 10px;margin-top:10px">
+                                                                Lorem ipsum dolor sit
+                                                                con sect
+                                                                incid idunt ut.
+                                                            </h1>
+                                                            <p class="lead" style="font-size: 15px;line-height:22px;margin-bottom: 30px;">Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, sed
+                                                                doumd od tempor incididunt
+                                                                ut labrdedet
+                                                                dolore magna aliqua.
+                                                            </p>
+
+                                                            <a href="http://enfusion.com/" class="btn-link-simple">
+                                                                <table cellpadding="9" cellspacing="0">
+                                                                    <tr>
+                                                                        <td style="padding-left: 0;">
+                                                                            <span style="font-size: 15px;line-height:15px">Learn More</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div style="height: 22px;">
+                                                                                <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/single-arrow.png" alt="">
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            </td>
+                                            </tr>
+                                            </table>
+                                            <![endif]-->
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!--[if (gte mso 9)|(IE)]>
+                                </td>
+                                </tr>
+                                </table>
+                                <![endif]-->
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+
+        <table style="max-width: 600px; margin:0 auto; width: 100%;">
+            <tr>
+
+                <td style="padding-bottom: 10px;" class="no-padding">
+                    <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/lady-hero.png" style="width: 100%;" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:20px 24px 24px; padding-top:20px !important;padding-bottom: 20px !important;" class="no-padding">
+                    <h1 style="margin:0; font-weight: 400;font-size: 32px;line-height: 40px;letter-spacing: -1px;color: #1E1A34;">
+                        Lorem ipsum dolor sit con sect incid idunt ut labredet.
+                    </h1>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:0 24px" class="no-padding">
+                    <p class="lead" style="margin-bottom:30px; font-size: 18px; line-height: 26px;opacity: 0.7;letter-spacing: 0.2px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiumod tempor incididunt ut labredet dolore magna aliqua. Ut enim ad minim veniam, qud fis nost rud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+
+                    <table cellpadding="9" cellspacing="0">
+                        <tr>
+                            <td style="padding-left: 0;">
+                                <a href="#"
+                                    style="background-color:#7D5FFF;border-radius:20px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:15px;font-weight:500;letter-spacing:.2px;line-height:40px;text-align:center;text-decoration:none;width:120px;-webkit-text-size-adjust:none;">
+                                    Talk to Us
+                                </a>
+
+                            </td>
+                            <td>
+                                <a href="#"
+                                    style="background-color:#7D5FFF;border-radius:20px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:15px;font-weight:500;letter-spacing:.2px;line-height:40px;text-align:center;text-decoration:none;width:120px;-webkit-text-size-adjust:none;">
+                                    Talk to Us
+                                </a>
+
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+
+        </table>
+
+
+
+        <table style="max-width: 600px; margin:100px auto; width: 100%; ">
+            <tr>
+                <td colspan="2" style="padding:0 24px;background-color: white;padding-bottom: 35px;" bgcolor="#ffffff">
+                    <h3
+                        style="margin:0; font-size:32px;line-height: 40px;font-weight: 400;padding-bottom: 20px;mso-border-bottom-alt: 1px solid rgba(30, 26, 52, 0.2);border-bottom: 1px solid rgba(30, 26, 52, 0.2);">
+                        Featured speakers</h3>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff" align="center" style="width:100%;" class="">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" style="padding:0 0 20px 0;" class="responsive-table">
+                        <tr>
+                            <td align="center" height="100%" valign="top" width="100%" style="padding: 0 24px;padding-bottom: 35px;">
+                                <!--[if (gte mso 9)|(IE)]>
+                                <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                                <tr>
+                                <td align="center" valign="top" width="600">
+                                <![endif]-->
+                                <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600;">
+                                    <tr>
+                                        <td align="center" valign="top"
+                                            style="font-size:0;mso-border-bottom-alt: 1px solid rgba(30, 26, 52, 0.2);border-bottom: 1px solid rgba(30, 26, 52, 0.2);padding-bottom: 30px;">
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                                            <tr>
+                                            <td align="left" valign="top" width="190">
+                                            <![endif]-->
+                                            <div style="display:inline-block; max-width:190px; vertical-align:top; width:100%;" class="wrapper">
+
+                                                <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="190" class="wrapper">
+                                                    <tr>
+                                                        <td valign="top"
+                                                            style=" mso-border-right-alt: 1px solid rgba(30, 26, 52, 0.2); border-right: 1px solid rgba(30, 26, 52, 0.2);padding-right: 30px;"
+                                                            class="mobile-border-bottom">
+                                                            <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/dolora.png" alt="">
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            </td>
+                                            <td align="left" valign="top" width="360">
+                                            <![endif]-->
+                                            <div style="display:inline-block; max-width:360px; vertical-align:top; width:100%;" class="wrapper">
+
+                                                <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 360px; float: right;" class="wrapper">
+                                                    <tr>
+
+                                                        <td style="padding-left: 32px;vertical-align: top;" class="no-padding">
+
+                                                            <h4 style="margin:0; font-size:24px;line-height: 32px;font-weight: 400;margin-bottom: 8px;">Featured speakers</h4>
+                                                            <p style="color:rgba(125, 95, 255, 1);font-size: 15px;line-height:22px">Global Product Manager, Dolor Etalume</p>
+                                                            <p style="font-size: 12px;line-height:18px;text-transform: uppercase;letter-spacing: 2.5px">Enfusion</p>
+                                                            <p class="lead" style="font-size: 15px;line-height:22px;margin-bottom: 0;">Eiusmod tempor incididunt ut labore et dolore magna lorem
+                                                                aliquan. Lorem ipsum
+                                                                dolor sit amet consectetur
+                                                                adipisg elitug
+                                                                sedo uta enim ad minim veniam quis nostrud exercitationa ullamco laboris nisi
+                                                                ut.</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            </td>
+                                            </tr>
+                                            </table>
+                                            <![endif]-->
+                                        </td>
+                                    </tr>
+
+                                </table>
+                                <!--[if (gte mso 9)|(IE)]>
+                                </td>
+                                </tr>
+                                </table>
+                                <![endif]-->
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff" align="center" style="width:100%;" class="">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" style="padding:0 0 20px 0;" class="responsive-table">
+                        <tr>
+                            <td align="center" height="100%" valign="top" width="100%" style="padding: 0 24px;padding-bottom: 35px;">
+                                <!--[if (gte mso 9)|(IE)]>
+                                <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                                <tr>
+                                <td align="center" valign="top" width="600">
+                                <![endif]-->
+                                <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600;">
+                                    <tr>
+                                        <td align="center" valign="top"
+                                            style="font-size:0;mso-border-bottom-alt: 1px solid rgba(30, 26, 52, 0.2);border-bottom: 1px solid rgba(30, 26, 52, 0.2);padding-bottom: 30px;">
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                                            <tr>
+                                            <td align="left" valign="top" width="190">
+                                            <![endif]-->
+                                            <div style="display:inline-block; max-width:190px; vertical-align:top; width:100%;" class="wrapper">
+
+                                                <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="190" class="wrapper">
+                                                    <tr>
+                                                        <td valign="top"
+                                                            style=" mso-border-right-alt: 1px solid rgba(30, 26, 52, 0.2); border-right: 1px solid rgba(30, 26, 52, 0.2);padding-right: 30px;"
+                                                            class="mobile-border-bottom">
+                                                            <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/dolora.png" alt="">
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            </td>
+                                            <td align="left" valign="top" width="360">
+                                            <![endif]-->
+                                            <div style="display:inline-block; max-width:360px; vertical-align:top; width:100%;" class="wrapper">
+
+                                                <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 360px; float: right;" class="wrapper">
+                                                    <tr>
+
+                                                        <td style="padding-left: 32px;vertical-align: top;" class="no-padding">
+
+                                                            <h4 style="margin:0; font-size:24px;line-height: 32px;font-weight: 400;margin-bottom: 8px;">Featured speakers</h4>
+                                                            <p style="color:rgba(125, 95, 255, 1);font-size: 15px;line-height:22px">Global Product Manager, Dolor Etalume</p>
+                                                            <p style="font-size: 12px;line-height:18px;text-transform: uppercase;letter-spacing: 2.5px;">Enfusion</p>
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            </td>
+                                            </tr>
+                                            </table>
+                                            <![endif]-->
+                                        </td>
+                                    </tr>
+
+                                </table>
+                                <!--[if (gte mso 9)|(IE)]>
+                                </td>
+                                </tr>
+                                </table>
+                                <![endif]-->
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+        </table>
+
+
+
+
+        <table style="max-width: 600px; margin:100px auto; width: 100%; ">
+            <tr>
+                <td style="padding: 0 24px;">
+                    <table>
+                        <tr>
+                            <td style="padding: 30px 0px;border-bottom: 1px solid rgba(30, 26, 52, 0.2);border-top: 1px solid rgba(30, 26, 52, 0.2);">
+                                <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/email-quote.png" alt="">
+                                <h4 style="margin:0; font-size:24px;line-height: 32px;font-weight: 400;margin-bottom: 50px;margin-top: 20px;">Lorem ipsum dolo auter sit amet consec tetop adipiscing
+                                    elit massa nisian
+                                    modonun ultrice suis aute irure dolor in reprehe nd ina voluptate velit esse cillum dolore auteunag fugiat nulla pariatur aute
+                                    excepteur sintane occa ecat cupidatat doloreunag fugiat nulla.</h4>
+                                <p class="lead" style="font-size: 15px;line-height:22px;">Lorem Ipsum, Partner at Dolorsed Etalum</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+        </table>
+
+
+        <table style="max-width: 600px; margin:0 auto; width: 100%;">
+            <tr>
+
+                <td style="padding-bottom: 10px;" class="no-padding">
+                    <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/lady-hero.png" style="width: 100%;" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:20px 24px 24px; padding-top:20px !important;padding-bottom: 20px !important;" class="no-padding">
+                    <h1 style="margin:0; font-weight: 400;font-size: 32px;line-height: 40px;letter-spacing: -1px;color: #1E1A34;text-align: center;">
+                        Lorem ipsum dolor sit con sect incid idunt ut labredet.
+                    </h1>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:0 24px" class="no-padding">
+                    <p class="lead" style="margin-bottom:30px; font-size: 18px; line-height: 26px;opacity: 0.7;letter-spacing: 0.2px;text-align: center;">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do
+                        eiumod tempor incididunt ut labredet dolore magna aliqua. Ut enim ad minim veniam, qud fis nost rud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+
+
+                </td>
+            </tr>
+
+        </table>
+
+        <table style="max-width: 600px; margin:0 auto; width: 100%;">
+            <tr>
+                <td background="https://enfusion.webworkinprogress.com/emails/images/footer-pattern.png" bgcolor="#ffffff" width="600" height="300" valign="top">
+                    <!--[if gte mso 9]>
+                  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:300px;">
+                    <v:fill type="tile" src="https://enfusion.webworkinprogress.com/emails/images/footer-pattern.png" color="#ffffff" />
+                    <v:textbox inset="0,0,0,0">
+                  <![endif]-->
+                    <div>
+                        <table style="max-width: 600px; margin:0 auto; width: 100%;">
+
+                            <tr>
+                                <td align="center" style="width:100%" class="section-padding">
+                                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" style="padding:0 0 20px 0;" class="responsive-table">
+                                        <tr>
+                                            <td align="center" height="100%" valign="top" width="100%" class="no-padding" style="padding-bottom: 50px;">
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                                                <tr>
+                                                <td align="center" valign="top" width="600">
+                                                <![endif]-->
+                                                <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600;">
+                                                    <tr>
+                                                        <td align="center" valign="top" style="font-size:0;padding:24px 24px 0;box-sizing: border-box;">
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                                                            <tr>
+                                                            <td align="left" valign="top" width="280">
+                                                            <![endif]-->
+                                                            <div style="display:inline-block; max-width:280px; vertical-align:top; width:100%;" class="wrapper">
+
+                                                                <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="280">
+                                                                    <tr>
+                                                                        <td valign="top">
+                                                                            <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/email-logo.png" alt="Enfusion logo" />
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </div>
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            </td>
+                                                            <td align="left" valign="top" width="270">
+                                                            <![endif]-->
+                                                            <div style="display:inline-block; max-width:270px; vertical-align:top; width:100%;padding-top: 7px;" class="wrapper">
+
+                                                                <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 270px; float: right;"
+                                                                    class="wrapper">
+                                                                    <tr>
+
+                                                                        <td>
+
+                                                                            <a href="" class="btn-link">
+                                                                                <table cellpadding="9" cellspacing="0">
+                                                                                    <tr>
+                                                                                        <td style="padding-left: 0;">
+                                                                                            <span style="text-decoration:none;" style="font-size: 15px;color:rgba(30, 26, 52, 1)">Join Our
+                                                                                                Newsletter</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <div style="height: 32px;">
+                                                                                                <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/arrow-circle.png" alt="">
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </a>
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </div>
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            </td>
+                                                            </tr>
+                                                            </table>
+                                                            <![endif]-->
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                </td>
+                                                </tr>
+                                                </table>
+                                                <![endif]-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" style="padding:0 0 20px 0;" class="responsive-table">
+                                        <tr>
+                                            <td align="center" height="100%" valign="top" width="100%" style="padding:24px 24px 0;box-sizing: border-box;padding-bottom: 15px;">
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                        <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                                                        <tr>
+                                                        <td align="center" valign="top" width="600">
+                                                        <![endif]-->
+                                                <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600;">
+                                                    <tr>
+                                                        <td align="center" valign="top" style="font-size: 0;">
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                                <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                                                                <tr>
+                                                                <td align="left" valign="top" width="280">
+                                                                <![endif]-->
+                                                            <div style="display:inline-block; max-width:280px; vertical-align:bottom; width:100%;" class="wrapper">
+
+                                                                <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="280">
+                                                                    <tr>
+                                                                        <td valign="bottom" style="padding: 0px 0px 10px;vertical-align: bottom;">
+
+                                                                            <table cellpadding="9" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <a href="" style="text-decoration: none; display: inline-block;">
+                                                                                            <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/twitter.png" alt="">
+                                                                                        </a>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <a href="" style="text-decoration: none; display: inline-block;">
+                                                                                            <img border="0" src="https://enfusion.webworkinprogress.com/emails/images/linkedin.png" alt="">
+                                                                                        </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </div>
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                                                                </td>
+                                                                                                <td align="left" valign="top" width="270">
+                                                                                                <![endif]-->
+                                                            <div style="display:inline-block; max-width:270px; vertical-align:top; width:100%;" class="wrapper">
+
+                                                                <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 270px; float: right;"
+                                                                    class="wrapper">
+                                                                    <tr>
+
+                                                                        <td style="padding-right: 64px;">
+
+                                                                            <p style="font-weight: 400;font-size: 12px;line-height: 18px;">
+                                                                                <strong>Enfusion</strong><br />125 South Clark St. / Suite 750<br />Chicago, IL 60603
+                                                                            </p>
+                                                                            <p style="font-weight: 400;font-size: 12px;line-height: 18px;margin-bottom: 0;">©2021 Enfusion. All rights reserved.
+                                                                                Privacy Policy. Terms of Service. <a href="">Unsubscribe</a></p>
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </div>
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                                                                </td>
+                                                                                                </tr>
+                                                                                                </table>
+                                                                                                <![endif]-->
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                                                    </td>
+                                                                                    </tr>
+                                                                                    </table>
+                                                                                    <![endif]-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+
+
+                        </table>
+                    </div>
+                    <!--[if gte mso 9]>
+                            </v:textbox>
+                          </v:rect>
+                          <![endif]-->
+                </td>
+
+            </tr>
+        </table>
+    </body>
+
+</html>
