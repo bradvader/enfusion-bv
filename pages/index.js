@@ -77,6 +77,11 @@ export default function Home() {
         
     </div>
 
+    <div className="" id="bv-footer-block">
+
+      
+    </div>
+
 
 
 

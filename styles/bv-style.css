@@ -445,3 +445,14 @@ order: 1;
 align-self: stretch;
 flex-grow: 0;
 }
+#bv-footer-block{
+
+    
+width: 1440px;
+height: 808px;
+left: 0px;
+top: 0px;
+
+background:url('/images/footer-bg.png');
+mix-blend-mode: normal;
+}
