@@ -3,14 +3,22 @@
     src: local('Euclid Circular A'), url(/fonts/EuclidCircularA-Regular.woff) format('woff');
   }
 
-main{max-width:1440px;}
+main{max-width:1440px;height:8123px;background:#fff}
 
 #bv-cta-block{
     background:url('/images/GettyImages-1036208856-1.png');
     background-size:cover;
-    width:1440px;
-    height:360px;
-    margin:0 auto
+/* Group 153 */
+
+/* CTA Banner / Full Width / Desktop */
+
+position: absolute;
+width: 1440px;
+height: 360px;
+left: 0px;
+top: 6955px;
+
+
 }
 #block-A{
 
@@ -86,8 +94,13 @@ flex-grow: 0;
 #bv-stats-block{
     background:url('/images/Rectangle 9stats-bg.png');
     background-size:cover;
-    width:1280px;
-    height:510px;
+    position: absolute;
+width: 1280px;
+height: 510px;
+left: 0px;
+top: 5635px;
+
+
 }
 #stats-head{
 /* Frame 89 */
@@ -447,12 +460,290 @@ flex-grow: 0;
 }
 #bv-footer-block{
 
-    
+/* Footer / Desktop */
+
+position: absolute;
+width: 1440px;
+height: 808px;
+left: 0px;
+top: 7315px;
+
+
+}
+.footer-inner{
+    position: absolute;
 width: 1440px;
 height: 808px;
 left: 0px;
 top: 0px;
-
 background:url('/images/footer-bg.png');
 mix-blend-mode: normal;
+
+
+}
+.foot-logo{
+    /* Logo / Horiz Sig */
+
+position: absolute;
+width: 163px;
+height: 56px;
+left: 160px;
+top: 88px;
+
+
+}
+.foot-word{
+    /* Wordmark */
+
+position: absolute;
+left: 23.8%;
+right: 0%;
+top: 55.59%;
+bottom: 0%;
+
+/* Neutrals / White */
+background: #FFFFFF;
+}
+.foot-brand{
+    /* Brandmark */
+
+position: absolute;
+left: 0%;
+right: 65.63%;
+top: 0%;
+bottom: 0%;
+
+/* Neutrals / White */
+background: #FFFFFF;
+}
+
+.frame-37{
+/* Frame 37 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 256px;
+height: 282px;
+left: 160px;
+top: 200px;
+
+
+
+}
+.frame-42{
+
+    /* Frame 42 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 256px;
+height: 464px;
+left: 448px;
+top: 200px;
+
+
+}
+.frame-139{
+/* Frame 139 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 46px;
+
+position: absolute;
+width: 256px;
+height: 294px;
+left: 736px;
+top: 200px;
+
+
+
+}
+.frame-38{
+    /* Frame 38 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 256px;
+height: 124px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.frame-41{
+    /* Frame 41 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 256px;
+height: 124px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.frame-140{
+    /* Frame 140 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 46px;
+
+position: absolute;
+width: 160px;
+height: 432px;
+left: 1120px;
+top: 200px;
+}
+.frame-40{
+/* Frame 40 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 160px;
+height: 90px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.frame-40{
+    /* Frame 40 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 160px;
+height: 90px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.frame-39{
+    /* Frame 39 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 160px;
+height: 226px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.foot-line{/* Line 15 */
+
+    position: absolute;
+    width: 432px;
+    height: 0px;
+    left: 1024px;
+    top: 200px;
+    
+    /* Neutrals/White 30% */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transform: rotate(90deg);
+}
+.footer-heading{
+    width: 256px;
+    height: 22px;
+    
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    
+    /* identical to box height, or 157% */
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    
+    /* Neutrals / White */
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.foot-item{
+    
+width: 256px;
+height: 22px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+
+/* identical to box height, or 147% */
+letter-spacing: 0.2px;
+
+/* Neutrals/White 70% */
+color: rgba(255, 255, 255, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
 }
