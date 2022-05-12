@@ -32,36 +32,36 @@ export default function Home() {
     <Layout>
      
       <main className="bg-white p-0">
-      <div class="" id="bv-stats-block">
+      <div className="" id="bv-stats-block">
         <div id="stats-head">
 <div id="stats-title">Statistics</div>
 <div id="stats-headline">Strength in numbers.</div>
 </div>
-      <div class="stats" id="stats-1">
-        <div id="stats-num-1" class="stats-num">9</div>
-        <div class="stats-line"></div> 
+      <div className="stats" id="stats-1">
+        <div id="stats-num-1" className="stats-num">9</div>
+        <div className="stats-line"></div> 
         <div id="stats-copy-1">
-<div class="stats-subhead-1 sh">Offices across four continents</div>
-<div class="stats-subcopy-1 sc">Our global footprint allows for 24/6, follow-the-sun support.</div>     
+<div className="stats-subhead-1 sh">Offices across four continents</div>
+<div className="stats-subcopy-1 sc">Our global footprint allows for 24/6, follow-the-sun support.</div>     
         </div>
         </div>
-      <div class="stats" id="stats-2">
-        <div id="stats-num-2" class="stats-num">15</div>
-        <div class="stats-line"></div> 
+      <div className="stats" id="stats-2">
+        <div id="stats-num-2" className="stats-num">15</div>
+        <div className="stats-line"></div> 
         <div id="stats-copy-2">
-<div class="stats-subhead-2 sh">Years of cloud-native saas</div>
-<div class="stats-subcopy-2 sc">The architecture of our platform pre-dates the rise of SaaS for the industry.</div>     
+<div className="stats-subhead-2 sh">Years of cloud-native saas</div>
+<div className="stats-subcopy-2 sc">The architecture of our platform pre-dates the rise of SaaS for the industry.</div>     
         </div>
         </div>
-      <div class="stats" id="stats-3"><div id="stats-num-3" class="stats-num">450+</div>
-      <div class="stats-line"></div>
+      <div className="stats" id="stats-3"><div id="stats-num-3" className="stats-num">450+</div>
+      <div className="stats-line"></div>
       <div id="stats-copy-3">
-<div class="stats-subhead-3 sh">Implementations</div>
-<div class="stats-subcopy-3 sc">Hundreds of funds trust Enfusion technology for their operations.</div>     
+<div className="stats-subhead-3 sh">Implementations</div>
+<div className="stats-subcopy-3 sc">Hundreds of funds trust Enfusion technology for their operations.</div>     
         </div>
        </div>
 </div>     
-        <div class="bg-white overflow-hidden relative" id="bv-cta-block">
+        <div className="bg-white overflow-hidden relative" id="bv-cta-block">
           
         
             <div id="block-A">
