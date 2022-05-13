@@ -3,8 +3,675 @@
     src: local('Euclid Circular A'), url(/fonts/EuclidCircularA-Regular.woff) format('woff');
   }
 
-main{max-width:1440px;height:8123px;background:#fff}
+main{position:relative;width:100%;height:8123px;background:#fff;overflow:auto}
+.container{max-width:1440px;margin:0 auto}
+#bv-solution-block{
+    /* Find a Solution */
 
+position: absolute;
+width: 1120px;
+height: 518px;
+left: 160px;
+top: 2467px;
+}
+#hero-img-1{
+    /* GettyImages-1185878317 1 */
+
+position: absolute;
+width: 100%;
+height: 800px;
+left: 0px;
+top: 0px;
+
+background: url('/images/hero-1.png');
+mix-blend-mode: multiply;
+background-size:cover;
+background-position:center center;
+
+}
+
+#hero-1-inner{
+    position:relative;
+    width: 1440px;
+height: 800px;
+margin:0 auto;
+}
+#frame-113-container{
+    width:1140px;
+    position: absolute;
+margin:0 auto;
+height: 316px;
+
+top: 971px;
+}
+#frame-113{
+    /* Frame 113 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: relative;
+width: 448px;
+height: 316px;
+margin:0 auto;
+
+
+
+}
+#frame-113 #text-1{/* Why enfusion */
+
+    width: 448px;
+    height: 22px;
+    
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    
+    /* identical to box height, or 157% */
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    
+    /* Purples/Bright Purple */
+    color: #7D5FFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#frame-113 #text-2{
+/* Born in the cloud. Built for outperformance. */
+
+width: 448px;
+height: 168px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+/* or 117% */
+letter-spacing: -0.5px;
+
+/* Purples/Midnight */
+color: #1E1A34;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+    }
+    #frame-113 .text-3{
+        /* Enfusion gets technology out of your way so you can see, perform and grow at the height of your talents. */
+
+width: 448px;
+height: 78px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+
+/* or 144% */
+letter-spacing: 0.2px;
+
+/* Purples/Midnight 70% */
+color: rgba(30, 26, 52, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+    }
+#frame-99{
+    /* Frame 99 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 672px;
+height: 434px;
+left: 160px;
+top: 183px;
+}
+#frame-99-outer{
+    position:relative;
+    max-width:1440px;
+    margin:0 auto;
+}
+.frame-99-text1{
+    /* O Meet Enfusion */
+
+width: 160px;
+height: 22px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+
+/* identical to box height, or 157% */
+letter-spacing: 2.5px;
+text-transform: uppercase;
+
+/* Purples/Bright Purple */
+color: #7D5FFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.frame-99-text2{
+
+    /* See clearly. Act confidently. */
+
+width: 672px;
+height: 192px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 88px;
+line-height: 96px;
+
+/* or 109% */
+letter-spacing: -1px;
+
+/* Neutrals / White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.frame-99-text3{
+    /* Enfusion radically simplifies the investment management process by uniting front-, middle-, and back- office functions and services under a single, cloud-native platform built on a shared ‘golden data set’—giving you the freedom to focus on performance. */
+
+width: 448px;
+height: 156px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+
+/* or 144% */
+letter-spacing: 0.2px;
+
+/* Neutrals/White 70% */
+color: rgba(255, 255, 255, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+#rectangle-3{
+    /* Rectangle 3 */
+
+position: absolute;
+width: 800px;
+height: 1440px;
+left: 1440px;
+top: 0px;
+
+background: rgba(16, 24, 32, 0.4);
+mix-blend-mode: multiply;
+transform: rotate(90deg);
+}
+#rectangle-77{
+    /* Rectangle 77 */
+
+position: absolute;
+width: 100%;
+height: 1293px;
+left: 0px;
+top: 2339px;
+
+/* Neutrals / Gray 19 */
+background: #F8F8F7;
+}
+#benny-container{
+    position: absolute;
+width: 100%;
+height: 692px;
+top: 1464px;
+}
+#benny-table{
+/* Desktop / Benefits Table */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: relative;
+width: 1120px;
+height: 692px;
+margin:0 auto;
+
+
+}
+
+.line-13{
+    /* Line 13 */
+
+width: 66px;
+height: 0px;
+
+/* Purples/Midnight 20% */
+border: 1px solid rgba(30, 26, 52, 0.2);
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.line-21{
+    /* Line 21 */
+
+width: 66px;
+height: 0px;
+
+/* Purples/Midnight 20% */
+border: 1px solid rgba(30, 26, 52, 0.2);
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+}
+.line-24{
+    /* Line 24 */
+
+width: 1120px;
+height: 0px;
+
+/* Purples/Midnight 20% */
+border: 1px solid rgba(30, 26, 52, 0.2);
+transform: rotate(180deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.line-19{
+    /* Line 19 */
+
+width: 1120px;
+height: 0px;
+
+/* Purples/Midnight 20% */
+border: 1px solid rgba(30, 26, 52, 0.2);
+transform: rotate(180deg);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+}
+.line-26{
+    /* Line 26 */
+
+width: 1120px;
+height: 0px;
+
+/* Purples/Midnight 20% */
+border: 1px solid rgba(30, 26, 52, 0.2);
+transform: rotate(180deg);
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+}
+.line-27{
+    /* Line 27 */
+
+width: 1120px;
+height: 0px;
+
+/* Purples/Midnight 20% */
+border: 1px solid rgba(30, 26, 52, 0.2);
+transform: rotate(180deg);
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+}
+.line-28{
+    /* Line 28 */
+
+width: 1120px;
+height: 0px;
+
+/* Purples/Midnight 20% */
+border: 1px solid rgba(30, 26, 52, 0.2);
+transform: rotate(180deg);
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+align-self: stretch;
+flex-grow: 0;
+}
+.line-25{
+    /* Line 25 */
+
+width: 1120px;
+height: 0px;
+
+/* Purples/Midnight 20% */
+border: 1px solid rgba(30, 26, 52, 0.2);
+transform: rotate(180deg);
+
+/* Inside auto layout */
+flex: none;
+order: 12;
+align-self: stretch;
+flex-grow: 0;
+}
+#frame-100{
+    /* Frame 100 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 0px 56px;
+gap: 56px;
+
+width: 1120px;
+height: 66px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+#frame-101{
+    /* Frame 101 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 0px 56px;
+gap: 56px;
+
+width: 1120px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+}
+#frame-102{
+    /* Frame 102 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 0px 56px;
+gap: 56px;
+
+width: 1120px;
+height: 66px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+}
+#frame-103{
+    /* Frame 103 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 0px 56px;
+gap: 56px;
+
+width: 1120px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+}
+#frame-104{
+    /* Frame 104 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 0px 56px;
+gap: 56px;
+
+width: 1120px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.ben-copy-2{
+    /* Our expert users work in the same operating environment as our clients, ensuring both efficiency and total oversight. */
+
+width: 400px;
+height: 66px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+
+/* or 147% */
+display: flex;
+align-items: center;
+letter-spacing: 0.2px;
+
+/* Purples/Midnight 70% */
+color: rgba(30, 26, 52, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 1;
+}
+#frame-100 .ben-copy-1{
+    /* Seam free, front-to-back Software-as-a-Service */
+
+width: 400px;
+height: 64px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+
+/* or 133% */
+display: flex;
+align-items: center;
+
+/* Purples/Midnight */
+color: #1E1A34;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+}
+#frame-101 .ben-copy-1{
+    /* Single source of truth for all users */
+
+width: 400px;
+height: 80px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+
+/* or 133% */
+display: flex;
+align-items: center;
+
+/* Purples/Midnight */
+color: #1E1A34;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+}
+
+#frame-102 .ben-copy-1{
+    /* API-powered, open platform */
+
+width: 400px;
+height: 32px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+
+/* Purples/Midnight */
+color: #1E1A34;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+}
+#frame-103 .ben-copy-1{
+    /* Weekly upgrades, with zero disruptions */
+
+width: 400px;
+height: 80px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+
+/* or 133% */
+display: flex;
+align-items: center;
+
+/* Purples/Midnight */
+color: #1E1A34;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+}
+#frame-104 .ben-copy-1{
+    /* Managed services for middle and back office */
+
+width: 400px;
+height: 80px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+
+/* or 133% */
+display: flex;
+align-items: center;
+
+/* Purples/Midnight */
+color: #1E1A34;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+}
+#bv-header{/* Header / Desktop */
+
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    
+    }
 #bv-cta-block{
     background:url('/images/GettyImages-1036208856-1.png');
     background-size:cover;
@@ -13,9 +680,9 @@ main{max-width:1440px;height:8123px;background:#fff}
 /* CTA Banner / Full Width / Desktop */
 
 position: absolute;
-width: 1440px;
+
 height: 360px;
-left: 0px;
+width:100%;
 top: 6955px;
 
 
@@ -65,6 +732,12 @@ background: #1E1A34;
 border-radius: 80px;
 
 }
+.cta-container{
+    max-width:1440px;
+    height: 360px;
+    margin: 0 auto;
+    position:relative;
+}
 #ttu{
 /* Talk to Us */
 
@@ -90,17 +763,77 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+#insights-block{
+    /* Insights / Horiz Scroll / Desktop */
 
-#bv-stats-block{
-    background:url('/images/Rectangle 9stats-bg.png');
-    background-size:cover;
-    position: absolute;
-width: 1280px;
+position: absolute;
+width: 1504px;
+height: 637px;
+left: 160px;
+top: 4870px;
+}
+#insights{
+    /* Insights */
+
+position: absolute;
+left: 0%;
+right: 57.45%;
+top: 0%;
+bottom: 96.55%;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+
+/* identical to box height, or 157% */
+letter-spacing: 2.5px;
+text-transform: uppercase;
+
+/* Purples/Bright Purple */
+color: #7D5FFF;
+}
+#persp{
+    /* All things in perspective. */
+
+position: absolute;
+left: 0%;
+right: 44.68%;
+top: 7.22%;
+bottom: 83.99%;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+/* identical to box height, or 117% */
+letter-spacing: -0.5px;
+
+/* Purples/Midnight */
+color: #1E1A34;
+
+
+}
+#stats-container{
+position:absolute;
+background:url('/images/Rectangle 9stats-bg.png');
+background-size:cover;
+width: 100%;
 height: 510px;
-left: 0px;
+left: -500px;
 top: 5635px;
 
 
+}
+#bv-stats-block {
+    position: relative;
+    width: 1280px;
+    height: 510px;
+    margin: 0 auto;
+    margin-right: 0;
 }
 #stats-head{
 /* Frame 89 */
@@ -458,25 +1191,452 @@ order: 1;
 align-self: stretch;
 flex-grow: 0;
 }
+#awards-container{
+    width:100%;
+    height:561px;
+    position: absolute;
+    top: 6273px;
+}
+#bv-awards-block{
+    /* Awards Module / Desktop */
+
+position: relative;
+width: 1120px;
+height: 561px;
+margin:0 auto;
+
+
+
+}
+.award-line{
+    /* Line 13 */
+
+width: 256px;
+height: 0px;
+
+/* Purples/Midnight 20% */
+border: 1px solid rgba(30, 26, 52, 0.2);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.awards-category{
+    /* Award Category */
+
+width: 218px;
+height: 18px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+
+/* identical to box height, or 150% */
+letter-spacing: 0.25px;
+
+/* Purples/Bright Purple */
+color: #7D5FFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+#award-1 .award-name, #award-2 .award-name, #award-3 .award-name, #award-4 .award-name, #award-8 .award-name{
+
+    width: 256px;
+    height: 52px;
+    
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    
+    /* or 144% */
+    letter-spacing: 0.2px;
+    
+    /* Purples/Midnight */
+    color: #1E1A34;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#award-5 .award-name, #award-6 .award-name, #award-7 .award-name{
+
+    width: 256px;
+    height: 78px;
+    
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    
+    /* or 144% */
+    letter-spacing: 0.2px;
+    
+    /* Purples/Midnight */
+    color: #1E1A34;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#awards-head{
+    /* Group 6 */
+
+position: absolute;
+/* left: 0%;
+right: 10%;
+top: 0%;
+bottom: 41.82%; */
+height:102px;
+width:832px;
+
+
+}
+#awards-title{/* Recent Awards */
+
+    position: absolute;
+    /* left: 0%;
+    right: 25.71%;
+    top: 0%;
+    bottom: 96.08%; */
+    height:22px;
+    width:832px;
+    
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    
+    /* identical to box height, or 157% */
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    
+    /* Purples/Bright Purple */
+    color: #7D5FFF;
+    
+    }
+#awards-headline{/* Earning the respect of our peers. */
+
+    position: absolute;
+    left: 0%;
+    right: 10%;
+    top: 8.2%;
+    bottom: 41.82%;
+    height:56px;
+    width:832px;
+    
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    
+    /* identical to box height, or 117% */
+    letter-spacing: -0.5px;
+    
+    /* Purples/Midnight */
+    color: #1E1A34;
+    
+    }
+.frame-137{
+
+    /* Frame 137 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 155px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.award-org{
+    /* Organization Title */
+
+width: 106px;
+height: 18px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+
+/* identical to box height, or 150% */
+letter-spacing: 0.25px;
+
+/* Purples/Midnight */
+color: #1E1A34;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}    
+.award-slash{
+    /* / */
+
+width: 7px;
+height: 18px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+
+/* identical to box height, or 150% */
+letter-spacing: 0.25px;
+
+/* Purples/Midnight 50% */
+color: rgba(30, 26, 52, 0.5);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.award-year{
+    /* 2021 */
+
+width: 26px;
+height: 18px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+
+/* identical to box height, or 150% */
+letter-spacing: 0.25px;
+
+/* Purples/Midnight 50% */
+color: rgba(30, 26, 52, 0.5);
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+    #award-1{
+
+        /* Awards */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+left: 0%;
+right: 77.14%;
+top: 35.47%;
+bottom: 40.29%;
+
+
+    }
+    #award-2{
+        /* Awards */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+left: 25.71%;
+right: 51.43%;
+top: 35.47%;
+bottom: 40.29%;
+
+
+    }
+    #award-3{
+        /* Awards */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+left: 51.43%;
+right: 25.71%;
+top: 35.47%;
+bottom: 40.29%;
+
+
+    }
+    #award-4{/* Awards */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 12px;
+        
+        position: absolute;
+        left: 77.14%;
+        right: 0%;
+        top: 35.47%;
+        bottom: 40.29%;}
+    #award-5{/* Awards */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 12px;
+        
+        position: absolute;
+        left: 0%;
+        right: 77.14%;
+        top: 71.12%;
+        bottom: 0%;
+        
+        }
+    #award-6{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+left: 25.71%;
+right: 51.43%;
+top: 71.12%;
+bottom: 0%;
+
+    }
+    #award-7{
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+left: 51.43%;
+right: 25.71%;
+top: 71.12%;
+bottom: 0%;
+
+
+
+    }
+    #award-8{
+
+        /* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+left: 77.14%;
+right: 0%;
+top: 71.12%;
+bottom: 4.63%;
+
+
+    }
+    #personas-container{
+        position: absolute;
+        width: 100%;
+        height: 1110px;
+        top: 3632px;
+        
+background:url('/images/footer-bg.png');
+background-size:cover;
+mix-blend-mode: normal;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    }
+#personas-block{
+/* Personas Block / Desktop */
+
+position: relative;
+width: 1440px;
+height: 1110px;
+left: 0px;
+
+
+
+
+}
+#rectangle-7{
+    /* Rectangle 7 */
+
+position: absolute;
+left: 100%;
+right: -100%;
+top: 0%;
+bottom: 0%;
+
+}
 #bv-footer-block{
 
 /* Footer / Desktop */
 
 position: absolute;
-width: 1440px;
+width: 100%;
 height: 808px;
 left: 0px;
 top: 7315px;
-
+background:url('/images/footer-bg.png');
+background-size:cover;
 
 }
 .footer-inner{
-    position: absolute;
-width: 1440px;
+    position: relative;
+max-width: 1440px;
 height: 808px;
 left: 0px;
 top: 0px;
-background:url('/images/footer-bg.png');
+margin:0 auto;
+
 mix-blend-mode: normal;
 
 
@@ -745,5 +1905,24 @@ color: rgba(255, 255, 255, 0.7);
 flex: none;
 order: 1;
 align-self: stretch;
+flex-grow: 0;
+}
+.foot-social{
+    /* Social Icons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 90px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
 flex-grow: 0;
 }
