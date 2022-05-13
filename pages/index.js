@@ -12,8 +12,9 @@ export default function Home() {
     <Layout>
 
       <main className="bg-white p-0">
-        <div id="hero-img-1">
 
+        <div id="hero-img-1">
+          {/* <div id="rectangle-5"></div> */}
           <div id="hero-1-inner">
 
           </div>
@@ -32,13 +33,6 @@ export default function Home() {
 
         <div id="bv-header"></div>
 
-        <div id="frame-113-container">
-          <div id="frame-113">
-            <div id="text-1">Why Enfusion</div>
-            <div id="text-2">Born in the cloud.
-              Built for outperformance.</div>
-            <div id="text-3">Enfusion gets technology out of your way so you can see, perform and grow at the height of your talents.</div>
-          </div></div>
         <div id="devices"></div>
 
         <div id="benny-container">
@@ -47,7 +41,7 @@ export default function Home() {
             <div id="frame-100">
               <div className="icon"></div>
               <div className="line-13"></div>
-              <div className="ben-copy-1">Seam-free, front-to-back <br/>Software-as-a-Service</div>
+              <div className="ben-copy-1">Seam-free, front-to-back <br />Software-as-a-Service</div>
               <div className="line-21"></div>
               <div className="ben-copy-2">All modules use the same background data model, eliminating the need to harmonize code streams and protocols.</div>
             </div>
@@ -55,7 +49,7 @@ export default function Home() {
             <div id="frame-101">
               <div className="icon"></div>
               <div className="line-13"></div>
-              <div className="ben-copy-1">Single source of truth <br/>for all users</div>
+              <div className="ben-copy-1">Single source of truth <br />for all users</div>
               <div className="line-21"></div>
               <div className="ben-copy-2">Portfolio managers, risk and accounting continuously see exactly what the trading desks see, from market open to close.</div>
             </div>
@@ -71,7 +65,7 @@ export default function Home() {
             <div id="frame-103">
               <div className="icon"></div>
               <div className="line-13"></div>
-              <div className="ben-copy-1">Weekly upgrades, <br/>with zero disruptions</div>
+              <div className="ben-copy-1">Weekly upgrades, <br />with zero disruptions</div>
               <div className="line-21"></div>
               <div className="ben-copy-2">Our multi-tenant architecture allows new features to be added weekly, such that every client benefits from their peers’ ideas.</div>
             </div>
@@ -79,7 +73,7 @@ export default function Home() {
             <div id="frame-104">
               <div className="icon"></div>
               <div className="line-13"></div>
-              <div className="ben-copy-1">Managed services for <br/>middle and back office</div>
+              <div className="ben-copy-1">Managed services for <br />middle and back office</div>
               <div className="line-21"></div>
               <div className="ben-copy-2">Our expert users work in the same operating environment as our clients, ensuring both efficiency and total oversight.</div>
             </div>
@@ -101,7 +95,7 @@ export default function Home() {
               <div className="pers-cta">
                 <div className="pers-lm">Learn More</div>
                 <div className="pers-arrow">
-              
+
                 </div>
               </div>
             </div>
@@ -113,12 +107,12 @@ export default function Home() {
                 <div id="93-vector3"></div>
                 <div id="93-vector4"></div>
               </div>
-              <div className="pers-title">For Portfolio Managers<br/>and CIOs</div>
+              <div className="pers-title">For Portfolio Managers<br />and CIOs</div>
               <div className="pers-copy">Enter new markets and deploy new strategies without disrupting your workflows with an integrated PMS/OEMS that supports a wide range of alternative assets.</div>
               <div className="pers-cta">
                 <div className="pers-lm">Learn More</div>
                 <div className="pers-arrow">
-                
+
                 </div>
               </div>
             </div>
@@ -135,7 +129,7 @@ export default function Home() {
               <div className="pers-cta">
                 <div className="pers-lm">Learn More</div>
                 <div className="pers-arrow">
-                 
+
                 </div>
               </div>
             </div>
@@ -147,12 +141,12 @@ export default function Home() {
                 <div id="91-vector3"></div>
                 <div id="91-vector4"></div>
               </div>
-              <div className="pers-title">For COOs and<br/>Operational Leadership</div>
+              <div className="pers-title">For COOs and<br />Operational Leadership</div>
               <div className="pers-copy">Drive accuracy and transparency in trade and cash settlements by allowing your entire organization to work from one synchronized dataset.</div>
               <div className="pers-cta">
                 <div className="pers-lm">Learn More</div>
                 <div className="pers-arrow">
-                  
+
                 </div>
               </div>
             </div>
@@ -169,7 +163,7 @@ export default function Home() {
               <div className="pers-cta">
                 <div className="pers-lm">Learn More</div>
                 <div className="pers-arrow">
-                 
+
                 </div>
               </div>
             </div>
@@ -186,20 +180,20 @@ export default function Home() {
               <div className="pers-cta">
                 <div className="pers-lm">Learn More</div>
                 <div className="pers-arrow">
-                  
+
                 </div>
               </div>
             </div>
 
-  
+
 
             <div id="ftb">Front-to-back Platform</div>
             <div id="wisest">The wisest investment you’ll ever make.</div>
             <div id="persona-blurb">Enfusion unlocks the full potential of the Cloud across front-, middle- and back-office investment processes.</div>
-            
+
           </div>
-          
-          </div>
+
+        </div>
 
         <div id="insights-block">
           <div id="group-5">
@@ -277,22 +271,23 @@ export default function Home() {
         </div>
 
         <div id="rectangle-77"></div>
-        
-          <div id="solution-container">
-            <div id="solution-inner">
-<div id="frame-85">
-  <div id="solution-heading">Find a Solution</div>
-  <div id="solution-title">Cloud-native. <br/>For blue-sky plans.</div>
-  <div id="solution-copy">Founded by developers from the world’s most successful hedge funds, Enfusion was purpose-built to remove key operational and technological barriers faced by all types of asset managers.</div>
-</div>
-</div>
-</div>
 
-        
+        <div id="solution-container">
+          <div id="solution-inner">
+            <div id="frame-85">
+              <div id="solution-heading">Find a Solution</div>
+              <div id="solution-title">Cloud-native. <br />For blue-sky plans.</div>
+              <div id="solution-copy">Founded by developers from the world’s most successful hedge funds, Enfusion was purpose-built to remove key operational and technological barriers faced by all types of asset managers.</div>
+            </div>
+          </div>
+        </div>
+
+
 
         <div className="" id="bv-footer-block">
+          <div className="foot-line"></div>
           <div className="footer-inner">
-            <div className="foot-line"></div>
+
 
             <div className="frame-140">
               <div className="frame-40">
@@ -309,6 +304,12 @@ export default function Home() {
                 <div className="foot-item">Upcoming Events</div>
                 <div className="foot-item">Partnerships</div>
                 <div className="foot-item">Contact</div>
+              </div>
+              <div className="foot-social">
+                <div id="soc-in"></div>
+                <div id="soc-tw"></div>
+                <div id="soc-fb"></div>
+
               </div>
 
             </div>
@@ -350,11 +351,14 @@ export default function Home() {
                 <div className="foot-item">Fund Launches</div>
                 <div className="foot-item">Scaling operations</div>
               </div>
-              <div className="foot-social"></div>
+
             </div>
-            <div className="footer-cta1"></div>
-            <div className="footer-priv"></div>
-            <div className="footer-copyright"></div>
+            <div className="footer-cta1">
+              <div className="fcta1">Clients</div>
+              <div className="fcta2"></div>
+            </div>
+            <div className="footer-priv">Privacy Policy&nbsp;&nbsp;&nbsp;&nbsp;Trust</div>
+            <div className="footer-copyright">©2022 Enfusion. All rights reserved.</div>
             <div className="foot-logo">
               <div className="logo-word"></div>
               <div className="logo-brand"></div>
@@ -365,6 +369,14 @@ export default function Home() {
         <div id="subtract"></div>
 
 
+
+        <div id="frame-113-container">
+          <div id="frame-113">
+            <div id="text-1">Why Enfusion</div>
+            <div id="text-2">Born in the cloud.
+              Built for outperformance.</div>
+            <div id="text-3">Enfusion gets technology out of your way so you can see, perform and grow at the height of your talents.</div>
+          </div></div>
 
 
 

@@ -10,7 +10,7 @@ main{position:relative;width:100%;height:8123px;background:#fff;}
     /* Find a Solution */
 
 position: absolute;
-width: 1120px;
+max-width: 1120px;
 height: 518px;
 left: 160px;
 top: 2467px;
@@ -50,7 +50,7 @@ height: 800px;
 margin:0 auto;
 }
 #frame-113-container{
-    width:1140px;
+    max-width:1140px;
     position: absolute;
 margin:0 auto;
 height: 316px;
@@ -1378,6 +1378,19 @@ order: 0;
 align-self: stretch;
 flex-grow: 0;
 }
+.awards-ribbon{
+    background:url('/images/icon_ribbon.png');
+    /* Icon / Ribbon */
+background-size:contain;
+width: 30px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
 .awards-category{
     /* Award Category */
 
@@ -2184,7 +2197,8 @@ mix-blend-mode: normal;
 }
 .foot-logo{
     /* Logo / Horiz Sig */
-
+background:url('/images/footer_logo.png');
+background-size:cover;
 position: absolute;
 width: 163px;
 height: 56px;
@@ -2193,29 +2207,55 @@ top: 88px;
 
 
 }
-.foot-word{
-    /* Wordmark */
+.footer-cta1{
+    /* 1st CTA */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
 
 position: absolute;
-left: 23.8%;
-right: 0%;
-top: 55.59%;
-bottom: 0%;
+width: 118px;
+height: 32px;
+left: 1120px;
+top: 122px;
 
-/* Neutrals / White */
-background: #FFFFFF;
+
 }
-.foot-brand{
-    /* Brandmark */
+.fcta1{
+    width: 52px;
+height: 22px;
 
-position: absolute;
-left: 0%;
-right: 65.63%;
-top: 0%;
-bottom: 0%;
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+
+/* identical to box height, or 147% */
+letter-spacing: 0.2px;
 
 /* Neutrals / White */
-background: #FFFFFF;
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.fcta2{
+    width: 50px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
 }
 
 .frame-37{
@@ -2393,7 +2433,7 @@ flex-grow: 0;
     width: 432px;
     height: 0px;
     left: 1024px;
-    top: 200px;
+    top: 420px;
     
     /* Neutrals/White 30% */
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -2467,3 +2507,151 @@ flex: none;
 order: 2;
 flex-grow: 0;
 }
+#soc-in{
+    background:url('/images/icon_soc_in.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    width: 18px;
+height: 24px;
+
+/* Icons / Social */
+font-family: 'Font Awesome 5 Brands';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+/* identical to box height, or 120% */
+text-align: center;
+letter-spacing: 0.6px;
+
+/* Neutrals/White 70% */
+color: rgba(255, 255, 255, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+    
+}
+#soc-tw{
+    background:url('/images/icon_soc_tw.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    width: 20px;
+height: 24px;
+
+/* Icons / Social */
+font-family: 'Font Awesome 5 Brands';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+/* identical to box height, or 120% */
+text-align: center;
+letter-spacing: 0.6px;
+
+/* Neutrals/White 70% */
+color: rgba(255, 255, 255, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+#soc-fb{
+    background:url('/images/icon_soc_fb.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    width: 20px;
+height: 24px;
+
+/* Icons / Social */
+font-family: 'Font Awesome 5 Brands';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+/* identical to box height, or 120% */
+text-align: center;
+letter-spacing: 0.6px;
+
+/* Neutrals/White 70% */
+color: rgba(255, 255, 255, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.footer-copyright{
+/* ©2021 Enfusion. All rights reserved. */
+
+position: absolute;
+width: 210px;
+height: 18px;
+left: 160px;
+top: 723px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+
+/* identical to box height, or 150% */
+letter-spacing: 0.25px;
+
+/* Neutrals/White 70% */
+color: rgba(255, 255, 255, 0.7);
+
+
+    
+}
+.footer-priv{
+    
+position: absolute;
+width: 122px;
+height: 18px;
+left: 1120px;
+top: 723px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+
+/* identical to box height, or 150% */
+letter-spacing: 0.25px;
+
+/* Neutrals/White 70% */
+color: rgba(255, 255, 255, 0.7);
+}
+#rectangle-5{
+/* Rectangle 5 */
+
+position: absolute;
+width: 1440px;
+height: 216px;
+left: 1440px;
+top: 800px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), #101820;
+mix-blend-mode: multiply;
+transform: rotate(-180deg);
+
+}
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 1152px) {
+
+  }
