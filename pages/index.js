@@ -56,7 +56,7 @@ export default function Home() {
 
         <Personas />
         <Insights />
-        <Car />
+        {/* <Car /> */}
         <Statistics />
         <Awards />
 

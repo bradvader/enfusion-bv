@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-
+// import Image from './next/image';
 // Data
 import data from './data.json';
 
