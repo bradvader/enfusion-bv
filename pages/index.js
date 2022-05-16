@@ -6,7 +6,7 @@ import NavBar from "../components/NavBar";
 
 import Solution from '../components/Solution';
 import Personas from "../components/Personas";
-// import Car from "../components/Carousel"
+import Car from "../components/Carousel"
 import Insights from "../components/Insights";
 import Statistics from "../components/Statistics";
 import Awards from "../components/Awards";
@@ -32,7 +32,7 @@ export default function Home() {
 
         <Personas />
         <Insights />
-        {/* <Car /> */}
+        <Car />
         <Statistics />
         <Awards />
         <CTA2 />
