@@ -1,0 +1,91 @@
+.footer-heading {
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    height: 22px;
+    /* identical to box height, or 157% */
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: .8rem;
+}
+
+.foot-item {
+    color: rgba(255, 255, 255, 0.7); 
+    height: 22px;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    margin-bottom: .8rem
+}
+
+.foot-logo {
+    background: url('/images/footer_logo.png');
+    background-size: cover;
+    width: 163px;
+    height: 56px;
+}
+
+.footer-cta1 {
+    width: 118px;
+    height: 32px;
+    color: #fff;
+   
+}
+
+.footer-copyright {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-priv {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.foot-social {
+    width: 90px;
+    height: 24px;
+}
+
+#soc-in {
+    width: 18px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#soc-tw {
+    width: 20px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#soc-fb {
+    width: 20px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.foot-head{
+font-family:'ECA';
+font-weight:bolder;
+}

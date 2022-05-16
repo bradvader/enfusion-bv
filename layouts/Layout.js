@@ -1,8 +1,12 @@
+
+
 const Layout = ({ children }) => {
     return (
-      <div className="mx-auto md:px-4 md:max-w-3xl min-h-screen">
+   
+      <div className="md:max-w-3xl min-h-screen overflow-x-hidden">
         {children}
       </div>
+   
     );
   };
   

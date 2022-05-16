@@ -1,0 +1,29 @@
+{
+    "resources": [
+      {
+      
+        "link": "#",
+        "imageUrl": "/images/hero-1.png",
+        "blurb": "Lorem ipsum dolor sitat dolor consectetur adipiscing alaengi elitaeneanam etalum seder",
+        "cat": "Research",
+        "date": "Sept.24.2022"
+      },
+      {
+      
+        "link": "#",
+        "imageUrl": "/images/55i2.png",
+        "blurb": "Adipiscing alaengi elitaenean etalum seder dolor etalumonige lorem ipsum dolor sitat dolor ",
+        "cat": "Checklist",
+        "date": "Aug.17.2022"
+      },      
+      {
+       
+        "link": "#",
+        "imageUrl": "/images/bg-flip.png",
+        "blurb": "Adipiscing alaengi elitaenean etalum seder dolor etalumonige lorem ipsum dolor sitat dolor ",
+        "cat": "Research",
+        "date": "Mar.24.2022"
+      }
+    ]
+  }
+  

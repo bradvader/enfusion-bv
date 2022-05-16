@@ -1,0 +1,102 @@
+{
+    "resources": [
+      {
+        "icon": "",
+        "link": "#",
+        "imageUrl": "/images/55i1.png",
+        "blurb": "Lorem ipsum dolor sitat dolor consectetur adipiscing alaengi elitaeneanam etalum seder",
+        "cat": "Research",
+        "date": "Sept.24.2022"
+      },
+      {
+        "icon": "/images/icon_check.svg",
+        "link": "#",
+        "imageUrl": "/images/55i2.png",
+        "blurb": "Adipiscing alaengi elitaenean etalum seder dolor etalumonige lorem ipsum dolor sitat dolor ",
+        "cat": "Checklist",
+        "date": "Aug.17.2022"
+      },      
+      {
+        "icon": "",
+        "link": "#",
+        "imageUrl": "/images/55i3.png",
+        "blurb": "Lorem ipsum dolor sitat dolor consectetur adipiscing alaengi elitaeneanam etalum seder",
+        "cat": "Blog",
+        "date": "July.08.2022"
+      },  
+      {
+        "icon": "",
+        "link": "#",
+        "imageUrl": "/images/700x700_ESG_Webinar.jpg",
+        "blurb": "Adipiscing alaengi elitaenean etalum seder dolor etalumonige lorem ipsum dolor sitat dolor ",
+        "cat": "Case Study",
+        "date": "June.20.2022"
+      },     
+      {
+        "icon": "",
+        "link": "#",
+        "imageUrl": "/images/700x700_ProductWebinar02.jpg",
+        "blurb": "Lorem ipsum dolor sitat dolor consectetur adipiscing alaengi elitaeneanam etalum seder",
+        "cat": "Research",
+        "date": "Apr.27.2022"
+      },   
+      {
+        "icon": "",
+        "link": "#",
+        "imageUrl": "/images/700x700_Blog_Singapore101.jpg",
+        "blurb": "Adipiscing alaengi elitaenean etalum seder dolor etalumonige lorem ipsum dolor sitat dolor ",
+        "cat": "Research",
+        "date": "May.24.2022"
+      },      
+
+      {
+        "icon": "",
+        "link": "#",
+        "imageUrl": "/images/55i2.png",
+        "blurb": "Lorem ipsum dolor sitat dolor consectetur adipiscing alaengi elitaeneanam etalum seder",
+        "cat": "Checklist",
+        "date": "Mar.24.2022"
+      },
+      {
+        "icon": "",
+        "link": "#",
+        "imageUrl": "/images/55i1.png",
+        "blurb": "Adipiscing alaengi elitaenean etalum seder dolor etalumonige lorem ipsum dolor sitat dolor ",
+        "cat": "Research",
+        "date": "Sept.24.2022"
+      },
+      {
+        "icon": "",
+        "link": "#",
+        "imageUrl": "/images/55i2.png",
+        "blurb": "Lorem ipsum dolor sitat dolor consectetur adipiscing alaengi elitaeneanam etalum seder",
+        "cat": "Checklist",
+        "date": "Aug.17.2022"
+      },      
+      {
+        "icon": "",
+        "link": "#",
+        "imageUrl": "/images/55i3.png",
+        "blurb": "Adipiscing alaengi elitaenean etalum seder dolor etalumonige lorem ipsum dolor sitat dolor ",
+        "cat": "Blog",
+        "date": "July.08.2022"
+      },  
+      {
+        "icon": "",
+        "link": "#",
+        "imageUrl": "/images/700x700_ESG_Webinar.jpg",
+        "blurb": "Lorem ipsum dolor sitat dolor consectetur adipiscing alaengi elitaeneanam etalum seder",
+        "cat": "Case Study",
+        "date": "June.20.2022"
+      },
+      {
+        "icon": "",
+        "link": "#",
+        "imageUrl": "/images/700x700_ProductWebinar02.jpg",
+        "blurb": "Adipiscing alaengi elitaenean etalum seder dolor etalumonige lorem ipsum dolor sitat dolor ",
+        "cat": "Research",
+        "date": "Mar.24.2022"
+      }
+    ]
+  }
+  
