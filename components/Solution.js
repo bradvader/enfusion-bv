@@ -8,8 +8,8 @@ export default function Solution() {
 
         <div id="frame-85" className="h-auto box-border lg:h-[286px] p-6 lg:p-0 animate-fade-in-up">
           <div className="uppercase tracking-[2.5px] leading-[22px] text-[14px] text-[#7D5FFF] font-semibold">Find a Solution</div>
-          <div className="tracking-[-0.5px] w-[448px] h-[112px] leading-[56px] text-[48px] text-[#1E1A34] my-6">Cloud-native. <br />For blue-sky plans.</div>
-          <div className="tracking-[0.2px] w-[448px] leading-[26px] text-[18px] text-[rgba(30,26,52,0.7)]">Founded by developers from the world’s most successful hedge funds, Enfusion was purpose-built to remove key operational and technological barriers faced by all types of asset managers.</div>
+          <div className="tracking-[-0.5px] w-auto lg:w-[448px] h-[112px] leading-[56px] text-[48px] text-[#1E1A34] my-6">Cloud-native. <br />For blue-sky plans.</div>
+          <div className="tracking-[0.2px] w-auto lg:w-[448px] leading-[26px] text-[18px] text-[rgba(30,26,52,0.7)]">Founded by developers from the world’s most successful hedge funds, Enfusion was purpose-built to remove key operational and technological barriers faced by all types of asset managers.</div>
 
         </div>
         <div className="flex">
