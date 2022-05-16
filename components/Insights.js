@@ -3,7 +3,7 @@ export default function Insights() {
     return (
 
 
-<div className="mx-auto flex flex-row max-w-[1120px] mb-14 px-6 xl:px-0 gap-3 justify-between mt-32">
+<div className="mx-auto flex flex-col md:flex-row max-w-[1120px] mb-14 px-6 xl:px-0 gap-3 justify-between mt-32 ">
 <div className="flex flex-col">
 <div className="uppercase tracking-[2.5px] leading-[22px] text-[14px] text-[#7D5FFF]">Insights</div>
 <div className="tracking-[-0.5px] leading-[56px] text-[48px] text-[#1e1a34]">All things in perspective</div>

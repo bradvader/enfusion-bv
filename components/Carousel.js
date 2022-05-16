@@ -51,12 +51,12 @@ const Carousel = () => {
 
   return (
 
-    <div className="car-container w-[1120px] mx-auto mb-32">
+    <div className="car-container lg:w-[1120px] mx-auto mb-32">
     <div className="carousel my-12 mx-auto ">
 
 
 
-      <div className="relative overflow-hidden w-[1440px] mx-auto">
+      <div className="relative overflow-hidden lg:w-[1440px] mx-auto">
   
         <div
           ref={carousel}
@@ -106,14 +106,6 @@ const Carousel = () => {
                   <div className="absolute mt-24 self-end h-[306px] w-[352px] bg-gradient-to-t from-[#101820] to-[rgba(30,26,2,0)] mix-blend-multiply"></div>
                 </a>
 
-                {/* <a
-                  href={resource.link}
-                  className="h-full w-full aspect-square block absolute top-0 left-0 transition-opacity duration-300 opacity-0 hover:opacity-100 bg-blue-800/75 z-10"
-                > */}
-                  {/* <h3 className="text-white py-6 px-3 mx-auto text-xl">
-                    {resource.title}
-                  </h3> */}
-                {/* </a> */}
               </div>
             );
           })}
