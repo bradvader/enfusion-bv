@@ -2,21 +2,21 @@
 export default function Why() {
   return (
     <div className="flex h-auto lg:h-[1539px] w-full flex-col">
-      <div className="mx-auto w-auto lg:w-[1120px] flex-row py-16 px-6 lg:py-0">
-        <div className="w-full lg:w-[316px] lg:mt-[171px]">
+      <div className="mx-auto w-auto lg:w-[1120px] flex flex-col lg:flex-row py-16 px-6 lg:py-0 justify-between">
+        <div className="lg:mt-[171px] flex-col">
           <div className="uppercase tracking-[2.5px] leading-[22px] text-[14px] text-[#7D5FFF] font-semibold">Why Enfusion</div>
           <div className="tracking-0 lg:tracking-[-0.5px] w-full lg:w-[448px] leading-[38px] lg:leading-[56px] text-[30px] lg:text-[48px] text-[#1E1A34] my-6">Born in the cloud.
             Built for outperformance.</div>
           <div className="tracking-[0.2px] w-full lg:w-[448px] leading-[26px] text-[18px] text-[rgba(30,26,52,0.7)]">Enfusion gets technology out of your way so you can see, perform and grow at the height of your talents.</div>
         </div>
-        <div className="bg-[url('/images/devices.png')] w-full h-auto bg-contain">
+        <div className="self-center bg-[url('/images/devices.png')] bg-no-repeat lg:w-[600px] lg:h-[274px] mt-12 lg:mt-[160px] w-full min-w-[400px] h-[350px] min-h-[183px]  bg-cover lg:bg-contain  lg:bg-center">
      
 
         </div>
       </div>
       <div className="lg:mx-auto w-full lg:max-w-[1120px] flex box-border">
 
-        <div id="" className="flex-row gap-8 items-start mx-auto max-w-[1120px] lg:first-letter:mt-24 h-auto lg:h-[692px]">
+        <div id="" className="flex-row gap-8 items-start mx-auto max-w-[1120px] lg:mt-24 h-auto lg:h-[692px]">
 
 
           <div className="flex flex-col w-full box-border lg:flex-row gap-[18px] lg:gap-0 p-6 lg:py-8 lg:border-t lg:border-[rgba(30,26,52,0.2)] ">
