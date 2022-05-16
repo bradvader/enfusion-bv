@@ -51,7 +51,7 @@ export default function Slidey() {
 
 
               width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80ZM30 57.3206L60 40L30 22.6795V57.3206Z" fill="white" fill-opacity="0.7"                     />
+              <path fillRule="evenodd" clipRule="evenodd" d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80ZM30 57.3206L60 40L30 22.6795V57.3206Z" fill="white" fillOpacity="0.7"                     />
             </svg>
             <div className="text-[14px] text-[rgba(255,255,255,0.9)] leading-[22px] tracking-[2.5px] font-normal drop-shadow-[0_0_16px_rgba(0,0,0,0.2)] text-center uppercase">Watch Video</div>
           </div>
