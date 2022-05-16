@@ -10,7 +10,7 @@ import CTA1 from "../components/CTA";
 
 import Solution from '../components/Solution';
 import Personas from "../components/Personas";
-import Car from "../components/Carousel"
+// import Car from "../components/Carousel"
 import Insights from "../components/Insights";
 import Statistics from "../components/Statistics";
 import Awards from "../components/Awards";
