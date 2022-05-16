@@ -1,6 +1,5 @@
 
 import '../styles/styles.css'
-import '../components/HeroSlider.css'
 import '../components/CTA2.css'
 import '../components/Footer.css'
 import '../styles/tailwind.css'
