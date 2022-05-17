@@ -60,15 +60,15 @@ export default function Slidey() {
     >
 
       <SwiperSlide id="slide1" className="light-nav bg-[url('/images/hero-1.png')] bg-cover bg-[center_bottom] bg-no-repeat">
-        <div className="w-[1032px] bg-gradient-to-r from-[#101820] absolute h-full !-z-10 mix-blend-multiply"></div>
-        <div className="w-full bg-gradient-to-b from-[#101820] absolute h-[224px] !-z-10 mix-blend-multiply"></div>
-        <div className="w-full absolute h-full bg-[url('/images/hero-fill.png')] !-z-20 mix-blend-multiply"></div>
+        <div className="w-[1032px] bg-gradient-to-r from-[#101820] absolute h-full !z-0 mix-blend-multiply"></div>
+        <div className="w-full bg-gradient-to-b from-[#101820] absolute h-[224px] !z-0 mix-blend-multiply"></div>
+        <div className="w-full absolute h-full bg-[url('/images/hero-fill.png')] !z-0 mix-blend-multiply"></div>
         <div className="hero-nav w-full h-[216px] mt-[584px] bg-gradient-to-t from-[#101820] absolute !z-0 mix-blend-multiply"></div>
 
 
 
-        <div className="mx-auto flex flex-col max-w-[1120px] lg:flex-row justify-start lg:gap-[160px] mb-14 px-6 xl:px-0">
-          <div className="lg:w-[672px] lg:h-[434px] mt-[120px] lg:mt-[183px] flex flex-col gap-[20px]">
+        <div className="mx-auto flex flex-col max-w-[1120px] lg:flex-row justify-start lg:gap-[160px] mb-14 px-6 xl:px-0 !z-50">
+          <div className="lg:w-[672px] lg:h-[434px] mt-[120px] lg:mt-[183px] flex flex-col gap-[20px] !z-50">
             <div id="" className="text-white text-[14px] uppercase leading-[22px] tracking-[2.5px] font-normal"><span className="oh text-[#7D5FFF] font-semibold">O</span> Meet Enfusion</div>
             <div id="" className="text-white text-[40px] md:text-[88px] leading-[48px] md:leading-[96px] lg:w-[672px] lg:h-[192px] tracking-[-0.5px] md:tracking-[-1px] lg:mt-6">See clearly. <br /><span className="text-[#7D5FFF]">Act confidently.</span></div>
 
