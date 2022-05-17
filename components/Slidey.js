@@ -14,32 +14,32 @@ import 'swiper/css/effect-fade';
 
 export default function Slidey() {
 
-  function darkNav() {
-    let j = document.getElementsByClassName('swiper-slide-active');
-    let cl = j[0].classList;
-    var n = document.getElementById("main-nav");
-    var p = document.getElementById("cont");
+  // function darkNav() {
+  //   let j = document.getElementsByClassName('swiper-slide-active');
+  //   let cl = j[0].classList;
+  //   var n = document.getElementById("main-nav");
+  //   var p = document.getElementById("cont");
 
-    let found = true;
-    for (let i = 0; i < cl.length; i++) {
-      if (cl[i] == 'dark-nav') {
-        found = false;
-        n.classList.add("dark-slide");
-        n.classList.remove('light-slide');
-        p.classList.add('dark');
-        p.classList.remove('light');
-        break;
-      } else {
+  //   let found = true;
+  //   for (let i = 0; i < cl.length; i++) {
+  //     if (cl[i] == 'dark-nav') {
+  //       found = false;
+  //       n.classList.add("dark-slide");
+  //       n.classList.remove('light-slide');
+  //       p.classList.add('dark');
+  //       p.classList.remove('light');
+  //       break;
+  //     } else {
        
-        n.classList.add('light-slide');
-        n.classList.remove('dark-slide');
-        p.classList.add('light');
-        p.classList.remove('dark');
-      }
-    }
+  //       n.classList.add('light-slide');
+  //       n.classList.remove('dark-slide');
+  //       p.classList.add('light');
+  //       p.classList.remove('dark');
+  //     }
+  //   }
 
     
-  }
+  // }
 
 
 
