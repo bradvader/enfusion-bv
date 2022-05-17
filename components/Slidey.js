@@ -19,9 +19,7 @@ export default function Slidey() {
     let cl = j[0].classList;
     var n = document.getElementById("main-nav");
     var p = document.getElementById("cont");
-    //n.classList.add("light-slide");
-    //console.log(cl.includes('dark-nav'));
-  
+
     let found = true;
     for (let i = 0; i < cl.length; i++) {
       if (cl[i] == 'dark-nav') {
@@ -39,17 +37,8 @@ export default function Slidey() {
         p.classList.remove('dark');
       }
     }
-    console.log('Is it a light slide with dark nav?');
-    console.log(found);
+
     
-    // for (var i = 0; i < cl.length; i++) {
-    //   if (cl[i] == 'light-nav') {
-    //     n.classList.add("light-slide");
-    //   //  n.classList.remove("dark-slide");
-    //   } else {
-    //     //n.classList.remove("dark-slide");
-    //   }
-    // }
   }
 
 
