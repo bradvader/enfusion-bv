@@ -41,7 +41,7 @@ export default function NavBar() {
 
   return (
     // <Disclosure as="nav" className='fixed top-0 z-50 w-full'>
-      <Disclosure as="nav" className={"transition-all duration-500 fixed top-0 z-50 w-full " + (navbar ? 'navbar scroll-active' : 'navbar')}>
+      <Disclosure as="nav" id="main-nav" className={"transition-all duration-500 fixed top-0 z-50 w-full " + (navbar ? 'navbar scroll-active' : 'navbar')}>
       {({ open }) => (
         <>
              
@@ -98,7 +98,7 @@ export default function NavBar() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
- 
+  
 
                 {/* Profile dropdown */}
                 <Menu as="div" className="ml-3 relative">

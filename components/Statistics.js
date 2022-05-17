@@ -2,7 +2,7 @@
 export default function Statistics() {
     return (
 
-      <div className="w-full bg-[url('/images/mobile-2.png')] md:bg-[url('/images/stats-bg.png')] bg-cover py-16 h-auto lg:h-[530px]">
+      <div className="w-full bg-[url('/images/mobile-2.png')] md:bg-[url('/images/stats-bg.png')] lg:bg-[center_left_-8rem]  xl:bg-[center_left_-8rem] 2xl:bg-[center_left_-12rem] bg-no-repeat bg-cover py-16 h-auto lg:h-[530px]">
       <div className="mx-auto flex flex-col gap-12 max-w-[1120px] justify-start h-auto lg:h-[530px] px-6 lg:px-0  box-border">
           <div className="flex flex-col gap-6">
             <div className="text-[#99B0F6] text-[14px] uppercase leading-[22px] tracking-[2.5px] font-semibold">Statistics</div>

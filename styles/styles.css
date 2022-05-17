@@ -44,6 +44,21 @@ opacity:100!important; */
 display:none;
 }
 .scroll-active a{color:#222222!important}
+
+#main-nav.light-slide a{color: rgba(30, 26, 52, 0.8)!important;
+
+}
+
+ .light .swiper-pagination-bullet{
+   background:#7D5FFF!important;
+ }
+ .light .logo-word-dark{
+   display:block!important
+ }
+ .light .logo-word{
+   display:none!important
+ }
+
 .scroll-active .logo-word-dark{
   display:block!important;
 }

@@ -2,17 +2,22 @@
 export default function Why() {
   return (
     <div className="flex h-auto lg:h-[1539px] w-full flex-col">
-      <div className="mx-auto w-auto lg:w-[1120px] flex flex-col lg:flex-row py-16 px-6 lg:py-0 justify-between">
+      <div className="mx-auto w-auto lg:w-[1120px] flex flex-col lg:flex-row py-16 px-6 lg:py-0 justify-start items-center">
         <div className="lg:mt-[171px] flex-col">
           <div className="uppercase tracking-[2.5px] leading-[22px] text-[14px] text-[#7D5FFF] font-semibold">Why Enfusion</div>
           <div className="tracking-0 lg:tracking-[-0.5px] w-full lg:w-[448px] leading-[38px] lg:leading-[56px] text-[30px] lg:text-[48px] text-[#1E1A34] my-6">Born in the cloud.
             Built for outperformance.</div>
           <div className="tracking-[0.2px] w-full lg:w-[448px] leading-[26px] text-[18px] text-[rgba(30,26,52,0.7)]">Enfusion gets technology out of your way so you can see, perform and grow at the height of your talents.</div>
         </div>
-        <div className="self-center bg-[url('/images/devices.png')] bg-no-repeat lg:w-[600px] lg:h-[274px] mt-12 lg:mt-[160px] w-full min-w-[400px] h-[350px] min-h-[183px]  bg-cover lg:bg-contain  lg:bg-center">
-     
 
-        </div>
+         {/* <div className="absolute self-center bg-[url('/images/devices.png')] bg-no-repeat lg:w-[600px] lg:h-[274px] mt-12 lg:mt-[160px] w-full min-w-[400px] h-[350px] min-h-[183px]  bg-cover lg:bg-contain  lg:bg-center"> */}
+         <div className="w-auto h-auto overflow-hidden text-center justify-items-center">
+
+         <img className="w-[90%] mx-auto h-auto md:w-[600px] md:h-[274px] mt-8 md:mt-32 justify-self-center " src="/images/devices.png"/>
+         </div>
+    
+
+        {/* </div>  */}
       </div>
       <div className="lg:mx-auto w-full lg:max-w-[1120px] flex box-border">
 

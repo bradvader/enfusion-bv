@@ -13,12 +13,53 @@ import 'swiper/css/effect-fade';
 
 
 export default function Slidey() {
+
+  function darkNav() {
+    let j = document.getElementsByClassName('swiper-slide-active');
+    let cl = j[0].classList;
+    var n = document.getElementById("main-nav");
+    var p = document.getElementById("cont");
+    //n.classList.add("light-slide");
+    //console.log(cl.includes('dark-nav'));
+  
+    let found = true;
+    for (let i = 0; i < cl.length; i++) {
+      if (cl[i] == 'dark-nav') {
+        found = false;
+        n.classList.add("dark-slide");
+        n.classList.remove('light-slide');
+        p.classList.add('dark');
+        p.classList.remove('light');
+        break;
+      } else {
+       
+        n.classList.add('light-slide');
+        n.classList.remove('dark-slide');
+        p.classList.add('light');
+        p.classList.remove('dark');
+      }
+    }
+    console.log('Is it a light slide with dark nav?');
+    console.log(found);
+    
+    // for (var i = 0; i < cl.length; i++) {
+    //   if (cl[i] == 'light-nav') {
+    //     n.classList.add("light-slide");
+    //   //  n.classList.remove("dark-slide");
+    //   } else {
+    //     //n.classList.remove("dark-slide");
+    //   }
+    // }
+  }
+
+
+
   return (
 
     <Swiper className="w-full h-[800px]"
       // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
-      effect='fade'
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+
       spaceBetween={50}
       watchSlidesProgress={true}
       slidesPerView={1}
@@ -26,10 +67,10 @@ export default function Slidey() {
       pagination={{ clickable: true, className: 'm-5' }}
       // scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+      onSlideChange={() => darkNav()}
     >
 
-      <SwiperSlide className="bg-[url('/images/hero-1.png')] bg-cover bg-[center_bottom] bg-no-repeat">
+      <SwiperSlide id="slide1" className="light-nav bg-[url('/images/hero-1.png')] bg-cover bg-[center_bottom] bg-no-repeat">
         <div className="w-[1032px] bg-gradient-to-r from-[#101820] absolute h-full -z-10 mix-blend-multiply"></div>
         <div className="w-full bg-gradient-to-b from-[#101820] absolute h-[224px] -z-10 mix-blend-multiply"></div>
         <div className="w-full absolute h-full bg-[url('/images/hero-fill.png')] -z-20 mix-blend-multiply"></div>
@@ -51,14 +92,14 @@ export default function Slidey() {
 
 
               width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80ZM30 57.3206L60 40L30 22.6795V57.3206Z" fill="white" fillOpacity="0.7"                     />
+              <path fillRule="evenodd" clipRule="evenodd" d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80ZM30 57.3206L60 40L30 22.6795V57.3206Z" fill="white" fillOpacity="0.7" />
             </svg>
             <div className="text-[14px] text-[rgba(255,255,255,0.9)] leading-[22px] tracking-[2.5px] font-normal drop-shadow-[0_0_16px_rgba(0,0,0,0.2)] text-center uppercase">Watch Video</div>
           </div>
         </div>
 
       </SwiperSlide>
-      <SwiperSlide className="bg-white">
+      <SwiperSlide id="slide2" className="bg-white dark-nav">
 
 
 
@@ -79,8 +120,8 @@ export default function Slidey() {
         </div>
 
       </SwiperSlide>
-      <SwiperSlide className="bg-[url('/images/hero3-mobile.png')] md:bg-[url('/images/bg-flip.png')] bg-cover">
-      <div className="mx-auto flex flex-row gap-8 max-w-[1120px] sm:flex-row justify-between mb-14 px-6 xl:px-0">
+      <SwiperSlide id="slide3" className="light-nav bg-[url('/images/hero3-mobile.png')] md:bg-[url('/images/bg-flip.png')] bg-cover">
+        <div className="mx-auto flex flex-row gap-8 max-w-[1120px] sm:flex-row justify-between mb-14 px-6 xl:px-0">
           <div className="w-[672px] h-[444px] mt-[118px] lg:mt-[183px] flex flex-col gap-12">
             <div className="flex flex-col gap-4">
               <div id="" className="text-[#1E1A34] flex flex-row gap-4 items-center justify-start text-[14px] uppercase leading-[22px] tracking-[2.5px] font-semibold">
