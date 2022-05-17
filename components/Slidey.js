@@ -60,10 +60,10 @@ export default function Slidey() {
     >
 
       <SwiperSlide id="slide1" className="light-nav bg-[url('/images/hero-1.png')] bg-cover bg-[center_bottom] bg-no-repeat">
-        <div className="w-[1032px] bg-gradient-to-r from-[#101820] absolute h-full -z-10 mix-blend-multiply"></div>
-        <div className="w-full bg-gradient-to-b from-[#101820] absolute h-[224px] -z-10 mix-blend-multiply"></div>
-        <div className="w-full absolute h-full bg-[url('/images/hero-fill.png')] -z-20 mix-blend-multiply"></div>
-        <div className="hero-nav w-full h-[216px] mt-[584px] bg-gradient-to-t from-[#101820] absolute z-0 mix-blend-multiply"></div>
+        <div className="w-[1032px] bg-gradient-to-r from-[#101820] absolute h-full !-z-10 mix-blend-multiply"></div>
+        <div className="w-full bg-gradient-to-b from-[#101820] absolute h-[224px] !-z-10 mix-blend-multiply"></div>
+        <div className="w-full absolute h-full bg-[url('/images/hero-fill.png')] !-z-20 mix-blend-multiply"></div>
+        <div className="hero-nav w-full h-[216px] mt-[584px] bg-gradient-to-t from-[#101820] absolute !z-0 mix-blend-multiply"></div>
 
 
 
